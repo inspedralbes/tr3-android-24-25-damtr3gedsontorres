@@ -1,0 +1,99 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(200, 180, 100);
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+}
+
+.register-container {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Images/KnightOfTheSilverEclipse.png");
+    background-color: rgba(20, 20, 20, 0.7);
+    -unity-background-image-tint-color: rgba(120, 120, 120, 0.7);
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container > TextField {
+    width: 300px;
+    background-color: rgba(40, 40, 40, 0.8);
+    border-width: 1px;
+    border-color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+}
+
+.register-container > TextField:hover {
+    border-color: rgb(150, 150, 150);
+}
+
+.register-container > TextField:focus {
+    border-color: rgb(200, 180, 100);
+}
+
+.register-container > TextField > .unity-text-field__input {
+    background-color: rgba(50, 50, 50, 0.8);
+    color: rgb(220, 220, 220);
+    border-width: 1px;
+    border-color: rgb(80, 80, 80);
+    border-radius: 2px;
+    padding: 8px;
+}
+
+#registerButton {
+    width: 300px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    -unity-font-style: bold;
+    color: rgb(220, 220, 220);
+    background-color: rgba(80, 70, 40, 0.9);
+    border-width: 2px;
+    border-color: rgb(120, 100, 60);
+    border-radius: 2px;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+#registerButton:hover {
+    background-color: rgba(100, 90, 50, 0.9);
+    border-color: rgb(200, 180, 100);
+    scale: 1.05;
+}
+
+#registerButton:active {
+    background-color: rgba(60, 50, 30, 0.9);
+    scale: 0.95;
+}
+
+#backButton {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    -unity-font-style: normal;
+    color: rgb(180, 180, 180);
+    background-color: rgba(50, 50, 50, 0.8);
+    border-width: 1px;
+    border-color: rgb(80, 80, 80);
+    border-radius: 2px;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+#backButton:hover {
+    color: rgb(220, 220, 220);
+    background-color: rgba(60, 60, 60, 0.9);
+    border-color: rgb(120, 120, 120);
+    scale: 1.05;
+}
+
+#backButton:active {
+    background-color: rgba(40, 40, 40, 0.9);
+    scale: 0.95;
+}
