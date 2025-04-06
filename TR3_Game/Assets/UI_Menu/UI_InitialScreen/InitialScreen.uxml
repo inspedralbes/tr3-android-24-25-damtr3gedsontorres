@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI_Menu/UI_InitialScreen/InitialScreen.uss?fileID=7433441132597879392&amp;guid=8a8e03c1278435247872926c74c34dae&amp;type=3#InitialScreen" />
+    <engine:VisualElement name="mainContainer" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/KnightOfTheSilverEclipse.png?fileID=2800000&amp;guid=c519dfd511711aa4a8fd205ee2968271&amp;type=3#KnightOfTheSilverEclipse&quot;);">
+        <engine:VisualElement name="fillContainer" style="flex-grow: 1;" />
+        <engine:VisualElement name="fillContainer2" style="flex-grow: 1;" />
+        <engine:Button text="Pulsa para continuar" name="nextScreenButton" enable-rich-text="true" enabled="true" focusable="true" />
+        <engine:VisualElement name="fillContainer3" style="flex-grow: 1;" />
+    </engine:VisualElement>
+</engine:UXML>

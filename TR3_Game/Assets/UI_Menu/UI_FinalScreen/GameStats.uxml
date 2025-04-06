@@ -1,0 +1,17 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <!-- Estilos -->
+    <Style src="project://database/Assets/UI_Menu/UI_FinalScreen/GameStats.uss?fileID=7433441132597879392&amp;guid=cd22e8661b69f8a44a3cd06df36c49ae&amp;type=3#FinalScreen" />
+
+    <!-- Título de la sección -->
+    <engine:Label text="Estadísticas del Juego" class="title-label" />
+
+    <!-- Mostrar estadísticas del jugador -->
+    <engine:Label text="Tiempo Jugado: 0 seg" name="DynamicText1" class="stat-label" />
+    <engine:Label text="Enemigos Derrotados: 0" name="DynamicText2" class="stat-label" />
+    <engine:Label text="Balas Usadas: 0" name="DynamicText3" class="stat-label" />
+    <engine:Label text="Último Acceso: 00/00/0000" name="DynamicText4" class="stat-label" />
+
+    <!-- Botones de acción -->
+    <engine:Button text="Pantalla de inicio" name="goestoInitialScreen" class="action-button" />
+    <engine:Button text="Salir" name="exitButton" class="action-button" />
+</engine:UXML>

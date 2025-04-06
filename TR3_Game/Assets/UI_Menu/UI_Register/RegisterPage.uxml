@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="project://database/Assets/UI_Menu/UI_Register/RegisterPage.uss?fileID=7433441132597879392&amp;guid=3a3b74318fd81de479e22976b71af3b3&amp;type=3#RegisterPage" />
+    
+    <engine:VisualElement class="register-container">
+        <engine:Label class="custom-label" text="Username" />
+        <engine:TextField name="usernameField" />
+        
+        <engine:Label class="custom-label" text="Email" />
+        <engine:TextField name="emailField" />
+        
+        <engine:Label class="custom-label" text="Password" />
+        <engine:TextField name="passwordField" type="password" />
+        
+        <engine:Button name="registerButton" text="Register" />
+        <engine:Button name="backButton" text="Back" />
+    </engine:VisualElement>
+</engine:UXML>

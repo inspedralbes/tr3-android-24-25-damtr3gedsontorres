@@ -1,0 +1,48 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+#mainContainer {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Images/KnightOfTheSilverEclipse.png");
+    background-color: rgba(40, 40, 40, 0.5);
+    -unity-background-image-tint-color: rgba(180, 180, 180, 0.9);
+}
+
+#fillContainer,
+#fillContainer2,
+#fillContainer3 {
+    flex-grow: 1;
+}
+
+#nextScreenButton {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    -unity-font-style: bold;
+    color: white;
+    background-color: rgba(60, 60, 60, 0.8);
+    border-width: 2px;
+    border-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    margin: 10px;
+    align-self: center;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+#nextScreenButton:hover {
+    background-color: rgba(80, 80, 80, 0.9);
+    border-color: rgb(150, 150, 150);
+    color: rgb(68, 138, 255);
+    scale: 1.1;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+#nextScreenButton:active {
+    background-color: rgba(40, 40, 40, 0.9);
+    scale: 0.95;
+}

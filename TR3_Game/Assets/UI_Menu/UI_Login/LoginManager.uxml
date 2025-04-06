@@ -1,0 +1,12 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI_Menu/UI_Login/LoginManager.uss?fileID=7433441132597879392&amp;guid=ae94bb126890dbc499b77fc430e3a27e&amp;type=3#LoginManager" />
+    <engine:VisualElement name="login-container" class="container">
+        <engine:VisualElement name="login-card" class="card">
+            <engine:Label text="Iniciar Sesión" name="title-label" class="title" />
+            <engine:TextField name="user-field" label="Username&#10;" class="input-field" />
+            <engine:TextField name="password-field" label="Contraseña" password="true" class="input-field" />
+            <engine:Button name="login-button" text="Iniciar Sesión" class="primary-button" />
+            <engine:Button name="go-to-register-button" text="¿No tienes cuenta? Regístrate" class="text-button" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
